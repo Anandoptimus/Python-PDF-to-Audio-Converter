@@ -18,7 +18,7 @@ for i in range(count):
         textList.append(page.extract_text())
 print(textList)
 
-# each line store it in a list without any new line
+# each line stores it in a list without any new line
 
 textString = " ".join(textList)
 print(textString)
